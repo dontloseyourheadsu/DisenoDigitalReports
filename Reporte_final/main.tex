@@ -73,21 +73,19 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\def\titulo{Reporte final}%titulo del documento
-\def\materia{Clave materia sección: } %Clave nombre de la materia y sección
-\def\curso{materia} %Nombre de la materia para footnote
-\def\fecha{Fecha de entrega} %En formato "dia" de "mes" de "año"
-\def\equipo {Número de equipo}%Verificar en blackboard el número asignado
-\def\ida{Id del estudiante 1} %Nombre y Id´s de todos los integrantes que hayan trabajado en el proyecto
-\def\esta{Nombre 1}
-\def\idb{Id del estudiante 2}
-\def\estb{Nombre 2}
-\def\idc{Id del estudiante 3}
-\def\estc{Nombre 3}
-\def\idd{Id del estudiante 4}
-\def\estd{Nombre 4}
-\def\ide{Id del estudiante 5} 
-\def\este{Nombre 5}%Copiar y pegar más líneas si su equipo tiene más de 5 integrantes, eliminar si está formado por menos
+\def\titulo{Reporte final: Máquina expendedora de golosinas}%titulo del documento
+\def\materia{Clave materia sección: LRT2022-1} %Clave nombre de la materia y sección
+\def\curso{Diseño Digital} %Nombre de la materia para footnote
+\def\fecha{27 de Noviembre de 2023} %En formato "dia" de "mes" de "año"
+\def\equipo {1}%Verificar en blackboard el número asignado
+\def\ida{177516} %Nombre y Id´s de todos los integrantes que hayan trabajado en el proyecto
+\def\esta{Jesus Alvarez Sombrerero}
+\def\idb{177485}
+\def\estb{Iván Estrella Sánchez}
+\def\idc{178432}
+\def\estc{Fernanda Sofía Ovalle Prado}
+\def\idd{177212}
+\def\estd{Daniel Yamil Tlilayatzi Muñoz}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -100,30 +98,29 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{center}														
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}						
-\thispagestyle{empty} 												
-\vspace*{-1.5cm}								
-\textsc{\huge Universidad de las Américas Puebla}\\[1.5cm]	
-\textsc{\LARGE Escuela de ingeniería}\\[1.5cm]	
-\textsc{\LARGE Departamento de computación, electrónica y mecatrónica}\\[1.5cm]												
-\includegraphics[width=150mm]{UDLAP}  									\vspace*{1cm}														\HRule \\[0.4cm]												
-{ \huge \bfseries \titulo}\\[0.4cm]	
-\HRule \\[1cm]														
-{ \Large \bfseries \materia}\\[1cm] 	
-{ \Large \bfseries Equipo \equipo}\\[1cm] 							
-\begin{flushleft} \Large											
-\ida \hspace{0.5cm}\esta \\
-\idb \hspace{0.5cm}\estb \\
-\idc \hspace{0.5cm}\estc \\
-\idd \hspace{0.5cm}\estd \\
-\ide \hspace{0.5cm}\este \\ %Copiar y pegar más líneas si su equipo tiene más de 5 integrantes, eliminar si está formado por menos
-\end{flushleft}														
-\vfill																
-\begin{center}													
-{\Large A \fecha, San Andrés Cholula, Puebla}						
-\end{center}												 		
-\end{center}							 								\newpage						
+\begin{center}
+  \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+  \thispagestyle{empty}
+  \vspace*{-1.5cm}
+  \textsc{\huge Universidad de las Américas Puebla}\\[1.5cm]
+  \textsc{\LARGE Escuela de ingeniería}\\[1.5cm]
+  \textsc{\LARGE Departamento de computación, electrónica y mecatrónica}\\[1.5cm]
+  \includegraphics[width=150mm]{UDLAP}  									\vspace*{1cm}														\HRule \\[0.4cm]
+  { \huge \bfseries \titulo}\\[0.4cm]
+  \HRule \\[1cm]
+  { \Large \bfseries \materia}\\[1cm]
+  { \Large \bfseries Equipo \equipo}\\[1cm]
+  \begin{flushleft} \Large
+    \ida \hspace{0.5cm}\esta \\
+    \idb \hspace{0.5cm}\estb \\
+    \idc \hspace{0.5cm}\estc \\
+    \idd \hspace{0.5cm}\estd \\ %Copiar y pegar más líneas si su equipo tiene más de 5 integrantes, eliminar si está formado por menos
+  \end{flushleft}
+  \vfill
+  \begin{center}
+    {\Large A \fecha, San Andrés Cholula, Puebla}
+  \end{center}
+\end{center}							 								\newpage
 %%%%%%%%%%%%%%%%%%%% TERMINA PORTADA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -132,34 +129,45 @@
 \thispagestyle{empty} %Para no numerar la página del indice
 \tableofcontents %Comando que genera el índice
 \newpage %Se asegura que el documento inicie en la sigueinte pagina despues del índice
-\setcounter{page}{1} %Para comenzar a numerar las páginas desde este punto
-\section{Sección}
-\cite{gh1562} %Citar una referencia
-
-$\cancelto{0}{x}$ %Camcelar x y colocar un cero
+\setcounter{page}{1} %Para comenzaMaquina expendedora de golosinasr a numerar las páginas desde este punto
+\section{Objetivo y objetivos particulares}
+Programar y simular un circuito secuencial que controle una máquina expendedora.
+\subsection{Objetivos particulares}
 \begin{itemize}
-    \item Item 1
-    \item Item 2
-    \item Item 3
-    \item Item 4
+  \item La máquina debe permitir comprar 5 productos.
+  \item La máquina admite monedas de 1, 2, 5 y 10 pesos únicas.
+  \item La máquina permite confirmar la compra, además de solicitar el cambio.
+  \item La máquina debe tener un botón de reset que igual sirve para cancelar.
+  \item Diseñar un circuito que permita la simulación de la máquina.
+  \item Programar el circuito en un FPGA Basys 3 utilizando VHDL.
+  \item Realizar testbench para verificar el funcionamiento del circuito en EDA Playground.
 \end{itemize}
 
-\subsection{Subsección}
-\cite{Agarwal2019}
-\subsubsection{Sub-subsección}
-%% NOTA Aparecern warnings cada vez que se agregue código, ignorar por el momenoto, la siguiente versión del template corregirá estos errores
+\section*{Materiales}
 
-% En este caso será necesario copiar y pegar todo el código 
-\begin{lstlisting}[language=Matlab, caption=Código de matlab]
-  %init_quad_reconfig_add.m %Ejecutar el programa de inicializacion
-%%
-clear all
-close all
-m=0.52%-0.0520; %masa dron
-g=9.81;
-tf=150;% Numero de muestras de la simulacion
+\subsection*{Equipamiento}
 
-\end{lstlisting}
+\begin{itemize}
+  \item Basys 3 board
+\end{itemize}
+
+\subsection*{Software}
+
+\begin{itemize}
+  \item Vivado 2022.2
+  \item EDA Playground
+\end{itemize}
+
+\section{Introducción y Marco Teórico}
+El proyecto aborda el diseño y la simulación de un circuito secuencial para controlar una máquina expendedora, utilizando el lenguaje de programación VHDL y el hardware FPGA Basys 3. El objetivo principal es crear un sistema que administre la venta de cinco productos diferentes: picafresa, 3 pesos; ositos, 6 pesos; viboritas, 7 pesos; papas, 12 pesos; jugo, 15 pesos.Este acepta monedas de 1, 2, 5 y 10 pesos que no se repiten. El diseño debe incluir funcionalidades clave, como la confirmación de compra, solicitud de cambio, y un botón de reset que también sirve para cancelar transacciones. Se busca probar todo con un testbench en EDA Playground y luego pasarlo a Vivado para programarlo en el Basys 3.
+
+Un circuito secuencial es un tipo de circuito eléctrico en el que la salida no solo depende de las entradas actuales, sino también del historial de entradas anteriores. A diferencia de los circuitos combinacionales, donde la salida es una función directa de las entradas, los circuitos secuenciales incorporan memoria. Esta memoria se logra mediante el uso de elementos de almacenamiento, como flip-flops o latches, que pueden mantener un estado. Esto permite que el circuito "recuerde" información pasada, lo que es fundamental para la creación de dispositivos como computadoras, donde se necesitan secuencias de operaciones y almacenamiento de datos \cite{7169287}.
+
+Una forma que otros han desarrollado una máquina expendedora en VHDL es mediante la implementación de un controlador que gestiona las entradas monetarias y coordina la dispensación de productos y el cambio. Este enfoque utiliza un conjunto de señales para detectar la inserción de dinero y activa la entrega del artículo una vez que se alcanza la cantidad exacta. Con un diseño que incorpora estados de espera y procesamiento, el sistema asegura una operación fluida y eficiente, ajustando las salidas de la máquina en respuesta a las acciones del usuario. La programación en VHDL permite una descripción precisa del comportamiento del controlador de la máquina expendedora \cite{lameres2019quick}.
+
+Siguiendo el acercamiento de seleccionar de acuerdo a casos, decidimos ir por una programación de asignación de señales condicional, además de utilizar la operación de suma y resta con números, contando igual, con un circuito capaz de hacer display de 7 segmentos. En VHDL, la programación de circuitos que realizan operaciones basadas en señales condicionales a menudo sigue un patrón donde un proceso secuencial verifica el estado de múltiples señales de entrada y realiza cálculos o toma decisiones basadas en esos estados. Cada señal de entrada representa una condición o un valor que, cuando es activado, desencadena una acción dentro del proceso. Por su lado las bibliotecas IEEE.STD\_LOGIC\_ARITH y IEEE.STD\_LOGIC\_UNSIGNED son paquetes adicionales en VHDL que proporcionan funcionalidades para realizar operaciones aritméticas con señales que son de tipo std\_logic\_vector \cite{unlp2018}. Por su lado, un display de 7 segmentos en una Basys 3 debe ser mapeado por código utilizando el reloj, se debe diseñar las asignaciones que se pueden realizar en un display y un controlador que recorra los 4 displays. Posteriormente, se debe definir ese controlador en un archivo .xdc junto a los puertos que se pueden utilizar, los cuales deben ser activados en los tipos de asignaciones que se definen \cite{digilent2023}.
+
+\section{Diagramas}
 
 %En este caso el código puede ser mandado a llamar desde un archivo
 \lstinputlisting[language=C,caption=Código desde archivo y en C]{codigos/fast.c}

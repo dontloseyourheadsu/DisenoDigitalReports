@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Objetivo y objetivos particulares}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Objetivos particulares}{1}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Introducción y Marco Teórico}{1}{section.2}%
+\contentsline {section}{\numberline {3}Diagramas}{2}{section.3}%
+\contentsline {section}{\numberline {A}Hoja de software}{4}{appendix.Alph1}%
+\contentsline {section}{Referencias}{5}{section*.5}%
