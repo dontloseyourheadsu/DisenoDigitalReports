@@ -168,35 +168,24 @@ Una forma que otros han desarrollado una máquina expendedora en VHDL es mediant
 Siguiendo el acercamiento de seleccionar de acuerdo a casos, decidimos ir por una programación de asignación de señales condicional, además de utilizar la operación de suma y resta con números, contando igual, con un circuito capaz de hacer display de 7 segmentos. En VHDL, la programación de circuitos que realizan operaciones basadas en señales condicionales a menudo sigue un patrón donde un proceso secuencial verifica el estado de múltiples señales de entrada y realiza cálculos o toma decisiones basadas en esos estados. Cada señal de entrada representa una condición o un valor que, cuando es activado, desencadena una acción dentro del proceso. Por su lado las bibliotecas IEEE.STD\_LOGIC\_ARITH y IEEE.STD\_LOGIC\_UNSIGNED son paquetes adicionales en VHDL que proporcionan funcionalidades para realizar operaciones aritméticas con señales que son de tipo std\_logic\_vector \cite{unlp2018}. Por su lado, un display de 7 segmentos en una Basys 3 debe ser mapeado por código utilizando el reloj, se debe diseñar las asignaciones que se pueden realizar en un display y un controlador que recorra los 4 displays. Posteriormente, se debe definir ese controlador en un archivo .xdc junto a los puertos que se pueden utilizar, los cuales deben ser activados en los tipos de asignaciones que se definen \cite{digilent2023}.
 
 \section{Diagramas}
+\subsection{Selector de productos}
+\subsection{Selector de monedas}
+\subsection{Calculadora de cambio}
+\subsection{Flip Flop T modificado}
+\subsection{Display de 7 segmentos}
+\subsection{Máquina expendedora}
 
-%En este caso el código puede ser mandado a llamar desde un archivo
-\lstinputlisting[language=C,caption=Código desde archivo y en C]{codigos/fast.c}
+\section{Códigos}
+\subsection{Selector de productos}
+\subsection{Selector de monedas}
+\subsection{Calculadora de cambio}
+\subsection{Flip Flop T modificado}
+\subsection{Display de 7 segmentos}
+\subsection{Máquina expendedora}
 
+\section{Basys3}
 
-% En este caso será necesario copiar y pegar todo el código 
-\begin{lstlisting}[language=VHDL, caption=Código en VHDL]
-  library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.std_logic_unsigned.all;
-entity Contador0_9 is
-    Port ( clock_100Mhz : in STD_LOGIC;
-           reset : in STD_LOGIC;
-           Anode_Activate : out STD_LOGIC_VECTOR (3 downto 0);
-           LED_out : out STD_LOGIC_VECTOR (6 downto 0);
-           Led0: out STD_LOGIC:='0';
-           Led1: out std_logic:='0');-- COMMENT
-end Contador0_9;
-\end{lstlisting}
-
-% En este caso será necesario copiar y pegar todo el código 
-\begin{lstlisting}[language=Python, caption=Código en Python]
-  def hello(name):
-    print 'Hello', name
- 
-if __name__=='__main__':
-    hello('Me')   #COMENTARIO 
-\end{lstlisting}
-
+\section{Conclusiones}
 
 \newpage %Termina la pagina y empieza una nueva
 \appendix % A partir de este comando, todas las secciones por venir serán parte del apéndice
