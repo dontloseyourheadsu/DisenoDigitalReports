@@ -2,21 +2,21 @@
 \contentsline {section}{\numberline {1}Objetivo y objetivos particulares}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Objetivos particulares}{1}{subsection.1.1}%
 \contentsline {section}{\numberline {2}Introducción y Marco Teórico}{1}{section.2}%
-\contentsline {section}{\numberline {3}Diagramas}{3}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Selector de productos}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Selector de monedas}{3}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Calculadora de cambio}{3}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Flip Flop T modificado}{3}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Display de 7 segmentos}{3}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Máquina expendedora}{3}{subsection.3.6}%
-\contentsline {section}{\numberline {4}Códigos}{3}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Selector de productos}{3}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Selector de monedas}{3}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Calculadora de cambio}{3}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Flip Flop T modificado}{3}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Display de 7 segmentos}{3}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Máquina expendedora}{3}{subsection.4.6}%
-\contentsline {section}{\numberline {5}Basys3}{3}{section.5}%
-\contentsline {section}{\numberline {6}Conclusiones}{3}{section.6}%
-\contentsline {section}{\numberline {A}Hoja de software}{4}{appendix.Alph1}%
-\contentsline {section}{Referencias}{5}{section*.5}%
+\contentsline {section}{\numberline {3}Procedimiento}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Diagramas}{2}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Selector de productos}{3}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Selector de monedas}{3}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Calculadora de cambio}{3}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Flip Flop T modificado}{4}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.5}Display de 7 segmentos}{4}{subsubsection.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.1.6}Máquina expendedora}{5}{subsubsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.2}Códigos}{5}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Selector de productos}{5}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Selector de monedas}{9}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Calculadora de cambio}{10}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Flip Flop T modificado}{12}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Display de 7 segmentos}{15}{subsubsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.6}Máquina expendedora}{18}{subsubsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.3}Basys 3}{22}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Conclusiones}{30}{section.4}%
+\contentsline {section}{Referencias}{31}{section*.27}%

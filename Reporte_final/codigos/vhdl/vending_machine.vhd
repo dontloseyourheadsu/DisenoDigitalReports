@@ -157,14 +157,18 @@ end process;
         change_value => change_value
     );
     
-    process(purchase_confirmed, get_change, total_value, change_value)
+    process(purchase_confirmed
+    , get_change
+    , total_value
+    , change_value)
     begin
-        if purchase_confirmed = '1' and get_change = '1' and total_value >= product_value then
+        if purchase_confirmed = '1' 
+        and get_change = '1' and total_value >= product_value then
             display_value1 <= change_value;
             display_value2 <= 0; -- Display change
         else
             display_value1 <= total_value;
-            display_value2 <= product_value; -- Display coin total and product value
+            display_value2 <= product_value;
         end if;
     end process;
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.21)  27 NOV 2023 11:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.21)  27 NOV 2023 22:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -467,34 +467,286 @@ l.165
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.190 \newpage
-               %Termina la pagina y empieza una nueva [2] [3] [4] (build/main.bbl)
+l.176 \newpage
+               [2]
+<Imagenes/Diagramas/product-selector-diagram.png, id=144, 905.3825pt x 623.32875pt>
+File: Imagenes/Diagramas/product-selector-diagram.png Graphic file (type png)
+<use Imagenes/Diagramas/product-selector-diagram.png>
+Package pdftex.def Info: Imagenes/Diagramas/product-selector-diagram.png  used on input line 184.
+(pdftex.def)             Requested size: 120.92421pt x 83.2517pt.
+<Imagenes/Diagramas/coin-selector-diagram.png, id=146, 444.66125pt x 423.5825pt>
+File: Imagenes/Diagramas/coin-selector-diagram.png Graphic file (type png)
+<use Imagenes/Diagramas/coin-selector-diagram.png>
+Package pdftex.def Info: Imagenes/Diagramas/coin-selector-diagram.png  used on input line 193.
+(pdftex.def)             Requested size: 120.92421pt x 115.18964pt.
+<Imagenes/Diagramas/change-calculator-diagram.png, id=147, 669.50125pt x 439.6425pt>
+File: Imagenes/Diagramas/change-calculator-diagram.png Graphic file (type png)
+<use Imagenes/Diagramas/change-calculator-diagram.png>
+Package pdftex.def Info: Imagenes/Diagramas/change-calculator-diagram.png  used on input line 202.
+(pdftex.def)             Requested size: 120.92421pt x 79.40727pt.
+ [3 <./Imagenes/Diagramas/product-selector-diagram.png> <./Imagenes/Diagramas/coin-selector-diagram.png> <./Imagenes/Diagramas/change-calculator-diagram.png>]
+<Imagenes/Diagramas/Flipflop.png, id=158, 366.36874pt x 484.81125pt>
+File: Imagenes/Diagramas/Flipflop.png Graphic file (type png)
+<use Imagenes/Diagramas/Flipflop.png>
+Package pdftex.def Info: Imagenes/Diagramas/Flipflop.png  used on input line 213.
+(pdftex.def)             Requested size: 120.92421pt x 160.01779pt.
+<Imagenes/Diagramas/7seg.png, id=161, 556.0775pt x 453.695pt>
+File: Imagenes/Diagramas/7seg.png Graphic file (type png)
+<use Imagenes/Diagramas/7seg.png>
+Package pdftex.def Info: Imagenes/Diagramas/7seg.png  used on input line 222.
+(pdftex.def)             Requested size: 120.92421pt x 98.65709pt.
+ [4 <./Imagenes/Diagramas/Flipflop.png> <./Imagenes/Diagramas/7seg.png>]
+<Imagenes/Diagramas/vending-machine-diagram.png, id=171, 1252.68pt x 758.835pt>
+File: Imagenes/Diagramas/vending-machine-diagram.png Graphic file (type png)
+<use Imagenes/Diagramas/vending-machine-diagram.png>
+Package pdftex.def Info: Imagenes/Diagramas/vending-machine-diagram.png  used on input line 233.
+(pdftex.def)             Requested size: 120.92421pt x 73.24796pt.
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 242.
 
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 38.
-See the caption package documentation for explanation.
+Overfull \hbox (6.0pt too wide) in paragraph at lines 242--242
+[][][][][][][] 
+ []
 
-[5
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 242--242
+[][][][][][][] 
+ []
+
+(./codigos/vhdl/product_selector.vhd [5 <./Imagenes/Diagramas/vending-machine-diagram.png>]
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 40.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 40.
+)
+Overfull \hbox (6.0pt too wide) in paragraph at lines 246--246
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 246--246
+[][][][][][][] 
+ []
+
+(./codigos/testbench/product_selector_test.vhd [6] [7])
+<Imagenes/EPWaves/product-selector-wave.png, id=284, 1774.63pt x 198.7425pt>
+File: Imagenes/EPWaves/product-selector-wave.png Graphic file (type png)
+<use Imagenes/EPWaves/product-selector-wave.png>
+Package pdftex.def Info: Imagenes/EPWaves/product-selector-wave.png  used on input line 253.
+(pdftex.def)             Requested size: 362.77264pt x 40.62723pt.
+ [8 <./Imagenes/EPWaves/product-selector-wave.png>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 261--261
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 261--261
+[][][][][][][] 
+ []
+
+(./codigos/vhdl/coin_selector.vhd [9])
+<Imagenes/EPWaves/coin-selector-wave.png, id=338, 1774.63pt x 198.7425pt>
+File: Imagenes/EPWaves/coin-selector-wave.png Graphic file (type png)
+<use Imagenes/EPWaves/coin-selector-wave.png>
+Package pdftex.def Info: Imagenes/EPWaves/coin-selector-wave.png  used on input line 270.
+(pdftex.def)             Requested size: 362.77264pt x 40.62723pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 276--276
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 276--276
+[][][][][][][] 
+ []
+
+(./codigos/vhdl/change_calculator.vhd) [10{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Imagenes/EPWaves/coin-selector-wave.png>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 280--280
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 280--280
+[][][][][][][] 
+ []
+
+(./codigos/testbench/change_calculator_test.vhd [11])
+<Imagenes/EPWaves/change-calculator-wave.png, id=423, 1775.63374pt x 141.52875pt>
+File: Imagenes/EPWaves/change-calculator-wave.png Graphic file (type png)
+<use Imagenes/EPWaves/change-calculator-wave.png>
+Package pdftex.def Info: Imagenes/EPWaves/change-calculator-wave.png  used on input line 287.
+(pdftex.def)             Requested size: 362.77264pt x 28.91423pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 293--293
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 293--293
+[][][][][][][] 
+ []
+
+(./codigos/vhdl/flipflop.vhd [12 <./Imagenes/EPWaves/change-calculator-wave.png>])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 297--297
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 297--297
+[][][][][][][] 
+ []
+
+(./codigos/testbench/flipflop_test.vhd [13] [14])
+<Imagenes/EPWaves/flipflop-wave.png, id=557, 1775.63374pt x 141.52875pt>
+File: Imagenes/EPWaves/flipflop-wave.png Graphic file (type png)
+<use Imagenes/EPWaves/flipflop-wave.png>
+Package pdftex.def Info: Imagenes/EPWaves/flipflop-wave.png  used on input line 304.
+(pdftex.def)             Requested size: 362.77264pt x 28.91423pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 310--310
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 310--310
+[][][][][][][] 
+ []
+
+(./codigos/vhdl/seven_seg_display.vhd [15 <./Imagenes/EPWaves/flipflop-wave.png>] [16])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 314--314
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 314--314
+[][][][][][][] 
+ []
+
+(./codigos/testbench/seven_seg_display_test.vhd [17])
+<Imagenes/EPWaves/seven-seg-display-wave.png, id=690, 1780.6525pt x 195.73125pt>
+File: Imagenes/EPWaves/seven-seg-display-wave.png Graphic file (type png)
+<use Imagenes/EPWaves/seven-seg-display-wave.png>
+Package pdftex.def Info: Imagenes/EPWaves/seven-seg-display-wave.png  used on input line 321.
+(pdftex.def)             Requested size: 362.77264pt x 39.87428pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 327--327
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 327--327
+[][][][][][][] 
+ []
+
+(./codigos/vhdl/vending_machine.vhd [18 <./Imagenes/EPWaves/seven-seg-display-wave.png>] [19] [20] [21]) [22]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 335--335
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 335--335
+[][][][][][][] 
+ []
+
+(./codigos/master.xdc
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 7.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+ [23])
+Overfull \hbox (59.15219pt too wide) in paragraph at lines 58--335
+[][][][][][][][][][][][][][][][] 
+ []
+
+<Imagenes/Basys/product3.png, id=967, 752.8125pt x 562.1pt>
+File: Imagenes/Basys/product3.png Graphic file (type png)
+<use Imagenes/Basys/product3.png>
+Package pdftex.def Info: Imagenes/Basys/product3.png  used on input line 342.
+(pdftex.def)             Requested size: 362.77264pt x 270.87706pt.
+[24 <./Imagenes/Basys/product3.png (PNG copy)>]
+<Imagenes/Basys/product3-coin1.png, id=989, 1007.765pt x 752.8125pt>
+File: Imagenes/Basys/product3-coin1.png Graphic file (type png)
+<use Imagenes/Basys/product3-coin1.png>
+Package pdftex.def Info: Imagenes/Basys/product3-coin1.png  used on input line 350.
+(pdftex.def)             Requested size: 362.77264pt x 270.98932pt.
+<Imagenes/Basys/product3-coin1-confirm.png, id=990, 1007.765pt x 752.8125pt>
+File: Imagenes/Basys/product3-coin1-confirm.png Graphic file (type png)
+<use Imagenes/Basys/product3-coin1-confirm.png>
+Package pdftex.def Info: Imagenes/Basys/product3-coin1-confirm.png  used on input line 356.
+(pdftex.def)             Requested size: 362.77264pt x 270.98932pt.
+ [25 <./Imagenes/Basys/product3-coin1.png> <./Imagenes/Basys/product3-coin1-confirm.png>]
+<Imagenes/Basys/product3-coin1-confirmed.png, id=997, 1007.765pt x 752.8125pt>
+File: Imagenes/Basys/product3-coin1-confirmed.png Graphic file (type png)
+<use Imagenes/Basys/product3-coin1-confirmed.png>
+Package pdftex.def Info: Imagenes/Basys/product3-coin1-confirmed.png  used on input line 364.
+(pdftex.def)             Requested size: 362.77264pt x 270.98932pt.
+<Imagenes/Basys/product3-coin1-nochange.png, id=998, 752.8125pt x 562.1pt>
+File: Imagenes/Basys/product3-coin1-nochange.png Graphic file (type png)
+<use Imagenes/Basys/product3-coin1-nochange.png>
+Package pdftex.def Info: Imagenes/Basys/product3-coin1-nochange.png  used on input line 370.
+(pdftex.def)             Requested size: 362.77264pt x 270.87706pt.
+ [26 <./Imagenes/Basys/product3-coin1-confirmed.png> <./Imagenes/Basys/product3-coin1-nochange.png (PNG copy)>]
+<Imagenes/Basys/product6-coin6.png, id=1005, 752.8125pt x 562.1pt>
+File: Imagenes/Basys/product6-coin6.png Graphic file (type png)
+<use Imagenes/Basys/product6-coin6.png>
+Package pdftex.def Info: Imagenes/Basys/product6-coin6.png  used on input line 380.
+(pdftex.def)             Requested size: 362.77264pt x 270.87706pt.
+<Imagenes/Basys/product6-coin6-confirmed.png, id=1006, 752.8125pt x 562.1pt>
+File: Imagenes/Basys/product6-coin6-confirmed.png Graphic file (type png)
+<use Imagenes/Basys/product6-coin6-confirmed.png>
+Package pdftex.def Info: Imagenes/Basys/product6-coin6-confirmed.png  used on input line 386.
+(pdftex.def)             Requested size: 362.77264pt x 270.87706pt.
+ [27 <./Imagenes/Basys/product6-coin6.png (PNG copy)> <./Imagenes/Basys/product6-coin6-confirmed.png (PNG copy)>]
+<Imagenes/Basys/product6-coin6-change.png, id=1013, 752.8125pt x 562.1pt>
+File: Imagenes/Basys/product6-coin6-change.png Graphic file (type png)
+<use Imagenes/Basys/product6-coin6-change.png>
+Package pdftex.def Info: Imagenes/Basys/product6-coin6-change.png  used on input line 394.
+(pdftex.def)             Requested size: 362.77264pt x 270.87706pt.
+<Imagenes/Basys/product7-coin10.png, id=1014, 752.8125pt x 562.1pt>
+File: Imagenes/Basys/product7-coin10.png Graphic file (type png)
+<use Imagenes/Basys/product7-coin10.png>
+Package pdftex.def Info: Imagenes/Basys/product7-coin10.png  used on input line 402.
+(pdftex.def)             Requested size: 362.77264pt x 270.87706pt.
+ [28 <./Imagenes/Basys/product6-coin6-change.png (PNG copy)> <./Imagenes/Basys/product7-coin10.png (PNG copy)>]
+<Imagenes/Basys/product7-coin10-confirmed.png, id=1022, 752.8125pt x 562.1pt>
+File: Imagenes/Basys/product7-coin10-confirmed.png Graphic file (type png)
+<use Imagenes/Basys/product7-coin10-confirmed.png>
+Package pdftex.def Info: Imagenes/Basys/product7-coin10-confirmed.png  used on input line 410.
+(pdftex.def)             Requested size: 362.77264pt x 270.87706pt.
+ [29 <./Imagenes/Basys/product7-coin10-confirmed.png (PNG copy)>]
+<Imagenes/Basys/product7-coin10-change.png, id=1029, 752.8125pt x 562.1pt>
+File: Imagenes/Basys/product7-coin10-change.png Graphic file (type png)
+<use Imagenes/Basys/product7-coin10-change.png>
+Package pdftex.def Info: Imagenes/Basys/product7-coin10-change.png  used on input line 418.
+(pdftex.def)             Requested size: 362.77264pt x 270.87706pt.
+ [30 <./Imagenes/Basys/product7-coin10-change.png (PNG copy)>] (build/main.bbl) [31
 
 ] (build/main.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BB3A1B5B9950D0DCFBC8EAEB8324711D;3183.
+(rerunfilecheck)             Checksum: E3FEE5C6126BBCD37CC9B6F20088BFC0;3328.
  ) 
 Here is how much of TeX's memory you used:
- 14826 strings out of 476041
- 234548 string characters out of 5793173
- 1861388 words of memory out of 6000000
- 35026 multiletter control sequences out of 15000+600000
- 520306 words of font info for 61 fonts, out of 8000000 for 9000
+ 16329 strings out of 476041
+ 259240 string characters out of 5793173
+ 1932388 words of memory out of 6000000
+ 35703 multiletter control sequences out of 15000+600000
+ 521020 words of font info for 63 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 75i,12n,76p,1451b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on build/main.pdf (7 pages, 278366 bytes).
+ 75i,13n,76p,1451b,2105s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on build/main.pdf (33 pages, 7976380 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1249 PDF objects out of 1440 (max. 8388607)
+ 1146 compressed objects within 12 object streams
+ 785 named destinations out of 1000 (max. 500000)
+ 284 words of extra memory for PDF output out of 10000 (max. 10000000)
 
